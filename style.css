@@ -1,0 +1,28 @@
+/* Hero section styling */
+.hero {
+  background: url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Room card hover effect */
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer font tweaks */
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
